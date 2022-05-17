@@ -1,15 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> Description the project.
+> a project to display scores to track who has hight scores
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML,CSS,JS
+- Webpack
 
 ## Live Demo (if available)
 
@@ -18,39 +17,33 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- vscode
+- npm and node
+- git and github
 
-### Setup
 
 ### Install
+- clone the repo.
+- npm i to install dev dependencies.
 
 ### Usage
-
-### Run tests
-
-### Deployment
+- npm start to run the project
+- npm run build to build the project
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **YosefHesham**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@yosefHesham](https://github.com/yosefHesham)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -70,4 +63,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
