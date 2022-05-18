@@ -17,7 +17,10 @@ export const renderItems = async () => {
       element.classList.add("white")
     }
     element.innerHTML = `${data[i].user} : ${data[i].score}`;
-    list.appendChild(element);
+    setTimeout(() => {
+      list.appendChild(element);
+
+    }, 400 * i)
   }
 
  
