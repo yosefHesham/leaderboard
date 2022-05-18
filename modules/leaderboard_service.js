@@ -3,7 +3,7 @@ import { toJson } from "./json";
 
 class LeaderBoardService {
   static basUrl = "https://us-central1-js-capstone-backend.cloudfunctions.net/api/";
-  static gameId = ""
+  static gameId = "JQ7Lbh97oLP8YsLHeosO"
   static getData = async () => {
     try {
     const resp = await fetch(`${this.basUrl}/games/${this.gameId}/scores`);
