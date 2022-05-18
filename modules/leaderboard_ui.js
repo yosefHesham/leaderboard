@@ -39,12 +39,21 @@ refreshButton.addEventListener("click",() => {
   renderItems()
 })
 
-submitButton.addEventListener("click", () => {
+submitButton.addEventListener("click", async () => {
   const user = new User(nameInput.value ,scoreInput.value);
+  if(isNaN(user.score)) {
+    alert("score should be number");
+    return
+  }
 
+try{
+ await LeaderBoardService.sendData(user);
  const element = createElement(user,list.children.length % 2 == 0);
+ scoreInput.value = "";
+ nameInput.value = "";
  list.appendChild(element);
+}catch(e) {
 
- LeaderBoardService.sendData(user)
+}
 })
 
