@@ -1,7 +1,7 @@
-import { fromJson } from "./json";
 import LeaderBoardService from "./leaderboard_service";
 
 const list = document.querySelector(".scores-list");
+const refreshButton = document.querySelector(".refresh-button")
 
 export const renderItems = async () => {
 
@@ -23,5 +23,10 @@ export const renderItems = async () => {
     }, 400 * i)
   }
 
- 
 }
+
+refreshButton.addEventListener("click",() => {
+  list.innerHTML = ``;
+  renderItems()
+})
+
