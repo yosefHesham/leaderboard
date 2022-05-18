@@ -2,12 +2,12 @@ import User from "./user";
 import { toJson } from "./json";
 
 class LeaderBoardService {
-  static basUrl =
+  static baseUrl =
     "https://us-central1-js-capstone-backend.cloudfunctions.net/api/";
   static gameId = "JQ7Lbh97oLP8YsLHeosO";
   static getData = async () => {
     try {
-      const resp = await fetch(`${this.basUrl}games/${this.gameId}/scores`);
+      const resp = await fetch(`${this.baseUrl}games/${this.gameId}/scores`);
       return await resp.json();
     } catch (e) {
       throw e;
@@ -16,19 +16,19 @@ class LeaderBoardService {
 
 /** @param {User} user */
   static sendData = async (user) => {
-    const result = await fetch(`${baseUrl}games/${gameId}/scores`, {
+    try {
+    const result = await fetch(`${this.baseUrl}games/${this.gameId}/scores`, {
       method: "POST",
-      body: JSON.stringify({
-        user: user.name,
-        score: user.score,
-      }),
+      body: toJson(user),
       headers: {
         "Content-type": "application/json; charset=UTF-8",
       },
     });
 
     const res = await result.json();
-    console.log(res.result);
+  }catch(e) {
+    throw e;
+  }
   };
 }
 
