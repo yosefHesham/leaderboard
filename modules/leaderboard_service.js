@@ -4,7 +4,7 @@ class LeaderBoardService {
   static baseUrl =
     'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 
-  static gameId = 'JQ7Lbh97oLP8YsLHeosO';
+  static gameId = '7morRvEOkODeZp7PHlbI';
 
   static getData = async () => {
     const resp = await fetch(`${this.baseUrl}games/${this.gameId}/scores`);
