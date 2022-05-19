@@ -1,6 +1,6 @@
-import createElement from "./create_element";
-import LeaderBoardService from "./leaderboard_service";
-import User from "./user";
+import createElement from './create_element';
+import LeaderBoardService from './leaderboard_service';
+import User from './user';
 
 const nameInput = document.querySelector('#name');
 const scoreInput = document.querySelector('#score');
@@ -23,6 +23,6 @@ const createRecord = async () => {
   } catch (e) {
     alert('Something went wrong');
   }
-}
+};
 
-export default createRecord
+export default createRecord;

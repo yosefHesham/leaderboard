@@ -1,4 +1,3 @@
-
 const createElement = (data, isWhite) => {
   const element = document.createElement('p');
   element.classList.add('item');
