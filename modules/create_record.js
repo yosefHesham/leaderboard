@@ -1,7 +1,10 @@
+import createElement from "./create_element";
+import LeaderBoardService from "./leaderboard_service";
 import User from "./user";
 
 const nameInput = document.querySelector('#name');
 const scoreInput = document.querySelector('#score');
+const list = document.querySelector('.scores-list');
 
 const createRecord = async () => {
   const user = new User(nameInput.value, scoreInput.value);
