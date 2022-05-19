@@ -1,5 +1,8 @@
 import User from "./user";
 
+const nameInput = document.querySelector('#name');
+const scoreInput = document.querySelector('#score');
+
 const createRecord = async () => {
   const user = new User(nameInput.value, scoreInput.value);
   const score = Number(user.score);
