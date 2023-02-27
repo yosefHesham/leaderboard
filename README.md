@@ -1,38 +1,87 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Leaderboard
+# 📗 Table of Contents
 
-> A leaderboard created using Leaderboard API service, webpack, and gitflow. The user can add a new score and refresh to see his ranking in the leaderboard.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-## Requirements
+<!-- PROJECT DESCRIPTION -->
 
-Build a Leaderboard list app using:
+# 📖 [Leaderboard] <a name="about-project"></a>
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- [Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
-- Webpack
-- Linters (Lighthouse, Webhint, Stylelint, Eslint)
-- Gitflow
+**[Leaderboard]** is a A leaderboard created using Leaderboard API service, webpack, and gitflow. The user can add a new score and refresh to see his ranking in the leaderboard.
 
-## Built With
+## 🛠 Built With <a name="built-with"></a>
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- [Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
-- Webpack
-- Linters (Lighthouse, Webhint, Stylelint, Eslint)
-- Gitflow
+### Tech Stack <a name="tech-stack"></a>
 
-## Live Demo
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://html.com/">HTML5</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS3</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3">Leaderboard API Service</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://webpack.js.org/">Webpack</a></li>
+  </ul>
+</details>
+
+
+### Key Features <a name="key-features"></a>
+
+- **[Show top ranked users]**
+- **[Add Users]**
+- **[Refresh the board]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
 
 You can check a **Live Demo** [here.](https://yosefhesham.github.io/leaderboard/dist/)
 
-## Getting Started
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To get a local copy up and running follow these simple example steps.
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -59,7 +108,14 @@ run: `npm run build`
 
 run: `npm start`
 
-## Authors
+### Deployment
+
+Use github pages and point to "dist" folder.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Yosef Hesham**
 
@@ -67,18 +123,48 @@ run: `npm start`
 - LinkedIn: [Yousef Hesham](https://www.linkedin.com/in/yousef-hesham98/)
 - Twitter: [@yosef](https://twitter.com/Yousef45653478)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[Delete a user]**
+- [ ] **[Reset a score]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-## Show your support
+Feel free to check the [issues page](../../issues/).
 
-Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgments
+<!-- SUPPORT -->
 
-- Hat tip to code reviewers and to everyone who reviewed the project and made suggestions.
+## ⭐️ Show your support <a name="support"></a>
 
-## 📝 License
+> Write a message to encourage readers to support your project
 
-This project is [MIT](./MIT.md) licensed.
+If you like this project...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
