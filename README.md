@@ -2,54 +2,74 @@
 
 # Leaderboard
 
-> a project to display scores to track who has hight scores
+> A leaderboard created using Leaderboard API service, webpack, and gitflow. The user can add a new score and refresh to see his ranking in the leaderboard.
 
+## Requirements
+
+Build a Leaderboard list app using:
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- [Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
+- Webpack
+- Linters (Lighthouse, Webhint, Stylelint, Eslint)
+- Gitflow
 
 ## Built With
 
-- HTML,CSS,JS
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- [Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
 - Webpack
+- Linters (Lighthouse, Webhint, Stylelint, Eslint)
+- Gitflow
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://yosefhesham.github.io/leaderboard/dist/)
-
+You can check a **Live Demo** [here.](https://yosefhesham.github.io/leaderboard/dist/)
 
 ## Getting Started
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-- vscode
-- npm and node
-- git and github
 
+- A web browser (like Google Chrome, Opera...).
+- A code editor (like Atom, VScode...).
 
-### Install
-- clone the repo.
-- npm i to install dev dependencies.
+### Setup
 
-### Usage
-- npm start to run the project
-- npm run build to build the project
+To setup the project locally: clone the repository using:
 
+```
+git clone https://github.com/yosefHesham/leaderboard
+```
 
+### Install dependencies
+
+run : `npm install`
+
+### Build the app
+
+run: `npm run build`
+
+### Run the app
+
+run: `npm start`
 
 ## Authors
 
-👤 **YosefHesham**
+👤 **Yosef Hesham**
 
 - GitHub: [@yosefHesham](https://github.com/yosefHesham)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+- LinkedIn: [Yousef Hesham](https://www.linkedin.com/in/yousef-hesham98/)
+- Twitter: [@yosef](https://twitter.com/Yousef45653478)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -57,10 +77,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to code reviewers and to everyone who reviewed the project and made suggestions.
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
