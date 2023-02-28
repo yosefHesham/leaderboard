@@ -19,7 +19,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
@@ -27,7 +26,7 @@
 
 **[Leaderboard]** is a A leaderboard created using Leaderboard API service, webpack, and gitflow. The user can add a new score and refresh to see his ranking in the leaderboard.
 
-![image]("./leaderboard.png")
+![image](leaderboard.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -36,31 +35,13 @@
 <details>
   <summary>Client</summary>
   <ul>
+    <li><a href="https://www.javascript.com/">Javascript</a></li>
     <li><a href="https://html.com/">HTML5</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Client</summary>
-  <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS3</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Client</summary>
-  <ul>
     <li><a href="https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3">Leaderboard API Service</a></li>
+     <li><a href="https://webpack.js.org/">Webpack</a></li>
   </ul>
 </details>
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://webpack.js.org/">Webpack</a></li>
-  </ul>
-</details>
-
 
 ### Key Features <a name="key-features"></a>
 
@@ -111,7 +92,7 @@ run: `npm start`
 
 ### Deployment
 
-Use github pages and point to "dist" folder.
+Use github pages or just run index.html to test it locally.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -142,30 +123,22 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Give a star if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+- Hat tip to Microverse's code reviewers and to everyone who reviewed my project and made suggestions.
 
-I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
