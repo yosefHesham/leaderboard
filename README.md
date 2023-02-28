@@ -22,11 +22,12 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 [Leaderboard] <a name="about-project"></a>
 
 **[Leaderboard]** is a A leaderboard created using Leaderboard API service, webpack, and gitflow. The user can add a new score and refresh to see his ranking in the leaderboard.
+
+![image]("./leaderboard.png")
 
 ## 🛠 Built With <a name="built-with"></a>
 
